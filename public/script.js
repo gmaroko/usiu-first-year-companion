@@ -55,6 +55,16 @@ function runEstimator() {
         <td style="padding: 8px; text-align:right;">${Math.round(totalWithSavings)}</td>
       </tr>
     </table>
+    <br/>
+
+    <section style="text-align:left;">
+      <h4>Quick Tips for USIU Freshmen</h4>
+      <ol>
+        <li>Use the USIU Buses for affordable transport.</li>
+        <li>Visit the Sironi for cheaper snacks as compared to Cafelatta.</li>
+      </ol>
+    </section>
+
   `;
 
   document.getElementById("summary").innerHTML = summaryHTML;
@@ -85,3 +95,11 @@ if (currentHour >= 19 || currentHour < 7) {
 } else {
   console.log("Daytime detected. Light mode active:", currentHour);
 }
+
+// Logic to reset summary table
+function resetSummary() {
+  document.getElementById("summary").innerHTML = "";
+  console.log("Summary reset.");
+  alert("Summary cleared.");
+}
+document.getElementById("resetSummary").addEventListener("click", resetSummary);
