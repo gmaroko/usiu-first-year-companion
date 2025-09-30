@@ -11,8 +11,8 @@ greetingSection.textContent = "Hello, " + studentName + " 👋";
 
 function runEstimator() {
   const days = Number(prompt("How many days per week do you come to campus? (e.g., 3)"));
-  const costPerTrip = Number(prompt("Average transport cost per trip in KSh? (e.g., 120)"));
-  const snacksPerDay = Number(prompt("Snacks per day? (e.g., 2)"));
+  const costPerTrip = Number(prompt("Average matatu fare KSh? (e.g., 120)"));
+  const snacksPerDay = Number(prompt("Snacks bought per day? (e.g., 2)"));
   const snackPrice = Number(prompt("Average price per snack in KSh? (e.g., 80)"));
 
   const transportWeekly = days * costPerTrip * 2; // to & from
@@ -73,3 +73,15 @@ function toggleTheme() {
 
 // Attach event listener to the toggle button
 document.getElementById("toggleTheme").addEventListener("click", toggleTheme);
+
+
+// Auto-switch theme based on time
+// I assume dark mode from 7 PM to 7AM
+const currentHour = new Date().getHours();
+if (currentHour >= 19 || currentHour < 7) {
+  document.body.classList.add("dark-mode");
+  document.getElementById("toggleTheme").checked = true;
+  console.log("Auto-switched to dark mode based on time:", currentHour);
+} else {
+  console.log("Daytime detected. Light mode active:", currentHour);
+}
