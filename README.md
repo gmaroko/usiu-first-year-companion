@@ -112,6 +112,7 @@ User sees a summary of their estimated weekly expenses.
 ![Lighthouse](./design/lighthouse.png)
 
 ### Screen Recording
+![Screen Recording](./design/screen_capture.mov)
 
 <video width="320" height="240" controls>
   <source src="./design/screen_capture.mov" type="video/mp4">
