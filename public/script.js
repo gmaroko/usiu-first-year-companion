@@ -61,7 +61,7 @@ function runEstimator() {
       <h4>Quick Tips for USIU Freshmen</h4>
       <ol>
         <li>Use the USIU Buses for affordable transport.</li>
-        <li>Visit the Sironi for cheaper snacks as compared to Cafelatta.</li>
+        <li>Visit Sironi for cheaper snacks as compared to Cafelatta.</li>
       </ol>
     </section>
 

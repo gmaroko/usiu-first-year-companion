@@ -1,4 +1,5 @@
 # USIU First-Year Companion (v1)
+
 ## Project Summary
 This is a lightweight, static microsite built for new USIU students during Orientation Week. It provides a personalized greeting, a simple campus cost and commute estimator, and a theme toggle feature. The goal is to help students feel welcomed and informed using basic web technologies.
 
@@ -95,6 +96,8 @@ User sees a summary of their estimated weekly expenses.
 
 
 ## Test Screenshots
+
+[**Live Link**](https://gmaroko.github.io/usiu-first-year-companion/public/index.html)
 
 #### Home Page - Dark Mode off
 ![Home Page ](./design/home_page_1.png)
