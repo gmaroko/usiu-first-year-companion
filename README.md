@@ -19,11 +19,11 @@ This is a lightweight, static microsite built for new USIU students during Orien
 
 1. Build the docker image
     ```bash
-        docker build -t usiu-first-year-companion:v1 .
+        docker build -t 06992014/usiu-first-year-companion:v1 .
     ```
 1. Run the container:
     ```bash
-        docker run -p 8080:80 usiu-first-year-companion:v1
+        docker run -p 8080:80 06992014/usiu-first-year-companion:v1
     ```
 1.  To access the site: Open your browser and go to: [http://localhost:8080](http://localhost:8080)
 
@@ -79,3 +79,19 @@ User sees a summary of their estimated weekly expenses.
 **JavaScript Functionality:**  
 - Displays transport and snack budget using `textContent`
 - Optionally shows a 10% savings tip using percentage math
+
+
+
+## Test Screenshots
+
+### Home Page - Dark Mode off
+![Home Page ](./design/home_page_1.png)
+
+
+### Home Page - Dark Mode on
+![Home Page ](./design/home_page_2.png)
+
+### Lighthouse report
+
+### Home Page - Dark Mode off
+![Lighthouse](./design/lighthouse.png)
