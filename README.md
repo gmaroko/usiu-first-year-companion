@@ -38,7 +38,13 @@ This is a lightweight, static microsite built for new USIU students during Orien
 - Improve mobile responsiveness and accessibility.
 
 ## Wireframes
-## 1. Home/Greeting Screen (`wireframe_home_greeting.png`)
+
+Latest update wireframe - [LINK](https://wireframe.cc/hyHWvu)
+
+### 1. Home/Greeting Screen
+
+![Home/Greeting Screen](./design/wireframe_home_greeting.png)
+
 **Purpose:**  
 Welcome the student with a personalized greeting.
 
@@ -52,7 +58,10 @@ On page load, JavaScript prompts the user to enter their name.
 
 ---
 
-## 2. Estimator Screen (`wireframe_estimator.png`)
+### 2. Estimator Screen
+
+![Home/Greeting Screen](./design/wireframe_estimator.png)
+
 **Purpose:**  
 Collect input for transport and snack budget estimation.
 
@@ -69,7 +78,10 @@ JavaScript prompts the user for:
 
 ---
 
-## 3. Summary Screen (`wireframe_summary.png`)
+### 3. Summary Screen
+
+![Summary Screen](./design/wireframe_summary.png)
+
 **Purpose:**  
 Display the calculated budget and optional savings tip.
 
@@ -84,14 +96,14 @@ User sees a summary of their estimated weekly expenses.
 
 ## Test Screenshots
 
-### Home Page - Dark Mode off
+#### Home Page - Dark Mode off
 ![Home Page ](./design/home_page_1.png)
 
 
-### Home Page - Dark Mode on
+#### Home Page - Dark Mode on
 ![Home Page ](./design/home_page_2.png)
 
-### Lighthouse report
+## Lighthouse report
 
 ### Home Page - Dark Mode off
 ![Lighthouse](./design/lighthouse.png)
