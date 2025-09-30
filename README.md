@@ -107,8 +107,6 @@ User sees a summary of their estimated weekly expenses.
 ![Home Page ](./design/home_page_2.png)
 
 ## Lighthouse report
-
-### Home Page - Dark Mode off
 ![Lighthouse](./design/lighthouse.png)
 
 ### Screen Recording
